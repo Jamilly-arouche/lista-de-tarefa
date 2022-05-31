@@ -5,5 +5,11 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-image: url();
+    background-image: url(https://s1.1zoom.me/big0/207/Switzerland_Houses_474317.jpg);
+}
+h1{
+    color: blanchedalmond;
+}
+li{
+    color: blanchedalmond;
 }
