@@ -2,42 +2,14 @@
 <html>
 <head>
    <title>minha lista</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>tarefa</h1>
-    <ul> </ul>
-     <input>
-     <button onclick="add()">adicionar</button>
-     <script> 
-
-         //estado da aplicação
-         const tarefa =['coisa 1','coisa 2','coisa 3']
-       
-         //alteradores de estado
-         function add() {
-           const input = document.querySelector("input")
-     const tarefa = input.value
-        tarefa.push(tarefa)
-         input.value =""
-            render()
-
-     }
-
-     //mostrar estado na tela
-     function render(){
-        const ul = document.querySelector("ul")
-        ul.innerHTML = null 
-
-        tarefas.forEach(function (tarefa){
-        const li = document.createElement("li")
-        li.innerText = tarefa 
-        ul.appendChild(li)
-        })
-            
-     }
-     //iniciar
-     //render()
-     </script>
+    <h1> tarefa </h1>
+    <ul></ul>
+     <div><input>
+     <button onclick="add()">adicionar</button></div>
+     <script src="script.js"></script>
 <body>
 </html>
